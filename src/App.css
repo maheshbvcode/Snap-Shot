@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.App {
+  text-align: center;
+}
+
+.heading {
+  font-family: "Lobster", cursive;
+}
+.input-bar {
+  background-color: rgb(233, 240, 237);
+  height: 25px;
+  position: relative;
+  bottom: 4px;
+}
+.search-class {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
+  left: 11px;
+}
+.search-icon {
+  height: 10px;
+  background-color: black;
+  width: 70px;
+}
+.list-item {
+  margin-right: 12px;
+  background-color: rgb(24, 24, 90);
+  border-radius: 2%;
+  padding: 0 3px;
+  color: white;
+}
+body {
+  color: rgb(24, 24, 90);
+}
+img {
+  transition: transform 0.25s ease;
+  margin-right: 20px;
+  width: 22%;
+  height: 140px;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+p:hover,
+button:hover {
+  cursor: pointer !important;
+  background-color: darkgreen !important;
+}

@@ -1,1 +1,1 @@
-# Snap-Shot
+# SnapShot
